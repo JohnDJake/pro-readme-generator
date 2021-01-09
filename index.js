@@ -53,7 +53,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions).then(response => writeToFile(`README_${response.title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.md`, response));
 }
