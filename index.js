@@ -41,8 +41,7 @@ const questions = [{
 }, {
     type: "input",
     name: "email",
-    message: "What is the title of your project?",
-    validate: answers => answers.email.includes("@")
+    message: "What is your email?"
 }];
 
 // Function to write README file
@@ -55,7 +54,9 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(response => writeToFile(`README_${response.title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.md`, response));
+}
 
 // Function call to initialize app
 init();
