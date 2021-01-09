@@ -14,6 +14,7 @@ This is is an interactive command line application that creates README files. It
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Credits](#credits)
 * [License](#license)
 * [Questions](#questions)
 
@@ -39,6 +40,12 @@ Feel free to fork/pull. Pull requests and commits must be descriptive, and code 
 ## Tests
 
 The easiest way to test it is to run it!
+
+
+
+## Credits
+
+* License descriptions are from [Choose a License](https://choosealicense.com/licenses/) and are themselves licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
 
 
 
