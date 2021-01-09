@@ -29,6 +29,8 @@ Run ```npm install``` in the root project directory to set up the required Node 
 
 Run ```node index.js``` and respond to the prompts. The readme will output to a file titled ```README_your_project_name.md```.
 
+Check out my [demo video](https://drive.google.com/file/d/1yYQiETgqNzUki3gnJ0XJlW29GcKm6str/view)!
+
 
 
 ## Contributing
