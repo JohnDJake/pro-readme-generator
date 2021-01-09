@@ -45,8 +45,10 @@ const questions = [{
     validate: answers => answers.email.includes("@")
 }];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, generateMarkdown.generateMarkdown(data), "wx", err => console.error(err));
+}
 
 // TODO: Create a function to initialize app
 function init() {}
